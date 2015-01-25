@@ -274,6 +274,7 @@
 	}
 	
 	IndivoMedication *selected = [meds objectAtIndex:indexPath.row];
+    NSLog(@"selected %@",selected);
     [self showMedication:selected animated:YES];
 }
 
