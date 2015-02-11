@@ -1,53 +1,47 @@
-/*
- MedListViewController.m
- Medications Sample
- 
- Created by Pascal Pfiffner on 9/26/11.
- Copyright (c) 2011 Children's Hospital Boston
- 
- This library is free software; you can redistribute it and/or
- modify it under the terms of the GNU Lesser General Public
- License as published by the Free Software Foundation; either
- version 2.1 of the License, or (at your option) any later version.
- 
- This library is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- Lesser General Public License for more details.
- 
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the Free Software
- Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
- */
+//
+//  allergylistViewController.m
+//  Medications Sample
+//
+//  Created by Souman Paul on 22/01/15.
+//  Copyright (c) 2015 Children's Hospital Boston. All rights reserved.
+//
 
-#import "MedListViewController.h"
+#import "allergylistViewController.h"
 #import "AppDelegate.h"
 #import "IndivoRecord.h"
 #import "IndivoDocuments.h"
 #import "MedViewController.h"
+//#import "IndivoAllergy+Report.h"
 
 
-@interface MedListViewController ()
-
+@interface allergylistViewController ()
 - (void)selectRecord:(id)sender;
 - (void)cancelSelection:(id)sender;
 - (void)setRecordButtonTitle:(NSString *)aTitle;
 - (void)showMedication:(IndivoMedication *)aMedication animated:(BOOL)animated;
 
+
 @end
 
-
-@implementation MedListViewController
+@implementation allergylistViewController
 
 @synthesize activeRecord, meds;
 
 
+- (id)initWithStyle:(UITableViewStyle)style
+{
+    self = [super initWithStyle:style];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
 
 #pragma mark - View lifecycle
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	self.title = @"Medications";
+	self.title = @"Allergy";
 	
 	// Select Records button
 	[self setRecordButtonTitle:nil];
@@ -112,27 +106,27 @@
 			self.navigationItem.rightBarButtonItem.enabled = (nil != self.activeRecord);
 			
 			// fetch this record's medications
-			[activeRecord fetchReportsOfClass:[IndivoMedication class]
+			[activeRecord fetchReportsOfClass:[IndivoAllergy class]
 									 callback:^(BOOL success, NSDictionary *__autoreleasing userInfo) {
-				
-				// error fetching medications
-				if (!success) {
-					NSString *errorMessage = [[userInfo objectForKey:INErrorKey] localizedDescription];
-					UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failed to get medications"
-																	message:errorMessage
-																   delegate:nil
-														  cancelButtonTitle:@"OK"
-														  otherButtonTitles:nil];
-					[alert show];
-				}
-				
-				// successfully fetched medications, display
-				else if (!userDidCancel) {
-					//DLog(@"%@", [userInfo objectForKey:INResponseStringKey]);
-					self.meds = [userInfo objectForKey:INResponseArrayKey];
-					[self.tableView reloadData];
-				}
-			}];
+                                         
+                                         // error fetching medications
+                                         if (!success) {
+                                             NSString *errorMessage = [[userInfo objectForKey:INErrorKey] localizedDescription];
+                                             UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Failed to get medications"
+                                                                                             message:errorMessage
+                                                                                            delegate:nil
+                                                                                   cancelButtonTitle:@"OK"
+                                                                                   otherButtonTitles:nil];
+                                             [alert show];
+                                         }
+                                         
+                                         // successfully fetched medications, display
+                                         else if (!userDidCancel) {
+                                             //DLog(@"%@", [userInfo objectForKey:INResponseStringKey]);
+                                             self.meds = [userInfo objectForKey:INResponseArrayKey];
+                                             [self.tableView reloadData];
+                                         }
+                                     }];
 		}
 		
 		// cancelled
@@ -182,7 +176,7 @@
 - (void)addMedication:(id)sender
 {
 	NSError *error = nil;
-	IndivoMedication *newMed = (IndivoMedication *)[activeRecord addDocumentOfClass:[IndivoMedication class] error:&error];
+	IndivoAllergy *newMed = (IndivoAllergy *)[activeRecord addDocumentOfClass:[IndivoAllergy class] error:&error];
 	if (!newMed) {
 		DLog(@"Error: %@", [error localizedDescription]);
 		// handle error
@@ -192,14 +186,39 @@
 	/*******************************************************
 	 *  This is the place to setup your medication object  *
 	 *******************************************************/
-	newMed.drugName = [INCodedValue new];
-	newMed.drugName.title = @"Vitamin C Supplement";
-	newMed.drugName.system = @"http://purl.bioontology.org/ontology/RXNORM/";
-	newMed.drugName.identifier = @"220820";
+    
+    newMed.category=[INCodedValue new];
+	newMed.category.title = @"title";
+    newMed.category.system = @"http://purl.bioontology.org/ontology/SNOMEDCT/";
+    newMed.category.identifier = @"416098002";
+    
+	newMed.allergic_reaction=[INCodedValue new];
+     newMed.allergic_reaction.title =@"allery_test";
+     newMed.allergic_reaction.system =@"http://purl.bioontology.org/ontology/SNOMEDCT/";
+    newMed.allergic_reaction.identifier =@"271807003";
+    
+    newMed.drug_class_allergen=[INCodedValue new];
+    newMed.drug_class_allergen.title =@"drug_class_allergentitle";
+    newMed.drug_class_allergen.system =@"http://purl.bioontology.org/ontology/NDFRT/";
+    newMed.drug_class_allergen.identifier =@"N0000175503";
+    
+    newMed.food_allergen=[INCodedValue new];
+    newMed.food_allergen.title =@"food_allergen_allergentitle";
+    newMed.food_allergen.system =@"http://fda.gov/UNII/";
+    newMed.food_allergen.identifier =@"255604002";
+    
+    newMed.drug_allergen=[INCodedValue new];
+    newMed.drug_allergen.title =@"fdrug_allergen_allergentitle";
+    newMed.drug_allergen.system =@"http://purl.bioontology.org/ontology/RXNORM/";
+    newMed.drug_allergen.identifier =@"255604002";
+
+    newMed.severity=[INCodedValue new];
+    newMed.severity.title =@"severityallergentitle";
+    newMed.severity.system =@"http://purl.bioontology.org/ontology/SNOMEDCT/";
+    newMed.severity.identifier =@"255604002";
+
+    
 	
-	newMed.startDate = [INDateTime now];
-	newMed.endDate = [INDateTime now];
-	newMed.endDate.date = [newMed.endDate.date dateByAddingTimeInterval:(30*24*3600)];
 	/******************************************************/
 	
 	// push to the server
@@ -217,10 +236,10 @@
 			[self.tableView reloadData];
 			
 			// show the medication
-			[self showMedication:newMed animated:YES];
+		//	[self showMedication:newMed animated:YES];
 			
 			// send a natification
-			[activeRecord sendMessage:@"New medication"
+			[activeRecord sendMessage:@"New Allergy"
 							 withBody:@"A new medication has just been added"
 							   ofType:INMessageTypePlaintext
 							 severity:INMessageSeverityLow
@@ -257,7 +276,7 @@
 		}
 		
 		// display the name
-		IndivoMedication *med = [meds objectAtIndex:indexPath.row];
+		IndivoAllergy *med = [meds objectAtIndex:indexPath.row];
 		cell.textLabel.text = [med displayName];
 		return cell;
 	}
@@ -276,5 +295,6 @@
 	IndivoMedication *selected = [meds objectAtIndex:indexPath.row];
     [self showMedication:selected animated:YES];
 }
+
 
 @end
