@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		85EADAE71A89B72D0031D679 /* libIndivo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EADAE61A89B72D0031D679 /* libIndivo.a */; };
+		B3699C9D1A74D1A100ACE3AA /* allergylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C911A74D1A100ACE3AA /* allergylistViewController.m */; };
+		B3699C9E1A74D1A100ACE3AA /* allergylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C931A74D1A100ACE3AA /* allergylistViewController.xib */; };
+		B3699C9F1A74D1A100ACE3AA /* allergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C951A74D1A100ACE3AA /* allergyViewController.m */; };
+		B3699CA01A74D1A100ACE3AA /* allergyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C961A74D1A100ACE3AA /* allergyViewController.xib */; };
+		B3699CA11A74D1A100ACE3AA /* VitalListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C981A74D1A100ACE3AA /* VitalListDetails.m */; };
+		B3699CA21A74D1A100ACE3AA /* VitalListDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C991A74D1A100ACE3AA /* VitalListDetails.xib */; };
+		B3699CA31A74D1A100ACE3AA /* vitallistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C9B1A74D1A100ACE3AA /* vitallistViewController.m */; };
+		B3699CA41A74D1A100ACE3AA /* vitallistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C9C1A74D1A100ACE3AA /* vitallistViewController.xib */; };
+		B3699CA81A74D2BF00ACE3AA /* DemographicsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CA61A74D2BF00ACE3AA /* DemographicsListViewController.m */; };
+		B3699CA91A74D2BF00ACE3AA /* DemographicsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699CA71A74D2BF00ACE3AA /* DemographicsListViewController.xib */; };
+		B3699CAD1A74D39000ACE3AA /* ImmunizationviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CAB1A74D39000ACE3AA /* ImmunizationviewController.m */; };
+		B3699CAE1A74D39000ACE3AA /* ImmunizationviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699CAC1A74D39000ACE3AA /* ImmunizationviewController.xib */; };
 		EE18B65A16B7261500D99CAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65916B7261500D99CAF /* Default@2x.png */; };
 		EE18B65D16B7261B00D99CAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65C16B7261B00D99CAF /* Default-568h@2x.png */; };
 		EE18B65F16B7261E00D99CAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65E16B7261E00D99CAF /* Default.png */; };
@@ -182,6 +194,24 @@
 		85EADAC81A89B6F90031D679 /* Unit Tests Static-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests Static-Info.plist"; sourceTree = "<group>"; };
 		85EADAC91A89B6F90031D679 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
 		85EADAE61A89B72D0031D679 /* libIndivo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndivo.a; path = "../IndivoFramework/build/Debug-iphoneos/libIndivo.a"; sourceTree = "<group>"; };
+		B3699C911A74D1A100ACE3AA /* allergylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allergylistViewController.m; sourceTree = "<group>"; };
+		B3699C921A74D1A100ACE3AA /* allergylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allergylistViewController.h; sourceTree = "<group>"; };
+		B3699C931A74D1A100ACE3AA /* allergylistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allergylistViewController.xib; sourceTree = "<group>"; };
+		B3699C941A74D1A100ACE3AA /* allergyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allergyViewController.h; sourceTree = "<group>"; };
+		B3699C951A74D1A100ACE3AA /* allergyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allergyViewController.m; sourceTree = "<group>"; };
+		B3699C961A74D1A100ACE3AA /* allergyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allergyViewController.xib; sourceTree = "<group>"; };
+		B3699C971A74D1A100ACE3AA /* VitalListDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VitalListDetails.h; sourceTree = "<group>"; };
+		B3699C981A74D1A100ACE3AA /* VitalListDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VitalListDetails.m; sourceTree = "<group>"; };
+		B3699C991A74D1A100ACE3AA /* VitalListDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VitalListDetails.xib; sourceTree = "<group>"; };
+		B3699C9A1A74D1A100ACE3AA /* vitallistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vitallistViewController.h; sourceTree = "<group>"; };
+		B3699C9B1A74D1A100ACE3AA /* vitallistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = vitallistViewController.m; sourceTree = "<group>"; };
+		B3699C9C1A74D1A100ACE3AA /* vitallistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = vitallistViewController.xib; sourceTree = "<group>"; };
+		B3699CA51A74D2BF00ACE3AA /* DemographicsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemographicsListViewController.h; sourceTree = "<group>"; };
+		B3699CA61A74D2BF00ACE3AA /* DemographicsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemographicsListViewController.m; sourceTree = "<group>"; };
+		B3699CA71A74D2BF00ACE3AA /* DemographicsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemographicsListViewController.xib; sourceTree = "<group>"; };
+		B3699CAA1A74D39000ACE3AA /* ImmunizationviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImmunizationviewController.h; sourceTree = "<group>"; };
+		B3699CAB1A74D39000ACE3AA /* ImmunizationviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImmunizationviewController.m; sourceTree = "<group>"; };
+		B3699CAC1A74D39000ACE3AA /* ImmunizationviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationviewController.xib; sourceTree = "<group>"; };
 		EE18082014BCB5B7009D7873 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		EE18B65916B7261500D99CAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		EE18B65C16B7261B00D99CAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -451,6 +481,24 @@
 				EE37571B1430CAC6002ABE18 /* MedListViewController.m */,
 				EEB38FBC1417D0F000478FA0 /* MedViewController.h */,
 				EEB38FBD1417D0F000478FA0 /* MedViewController.m */,
+				B3699C911A74D1A100ACE3AA /* allergylistViewController.m */,
+				B3699C921A74D1A100ACE3AA /* allergylistViewController.h */,
+				B3699C931A74D1A100ACE3AA /* allergylistViewController.xib */,
+				B3699C941A74D1A100ACE3AA /* allergyViewController.h */,
+				B3699C951A74D1A100ACE3AA /* allergyViewController.m */,
+				B3699C961A74D1A100ACE3AA /* allergyViewController.xib */,
+				B3699C971A74D1A100ACE3AA /* VitalListDetails.h */,
+				B3699C981A74D1A100ACE3AA /* VitalListDetails.m */,
+				B3699C991A74D1A100ACE3AA /* VitalListDetails.xib */,
+				B3699C9A1A74D1A100ACE3AA /* vitallistViewController.h */,
+				B3699C9B1A74D1A100ACE3AA /* vitallistViewController.m */,
+				B3699C9C1A74D1A100ACE3AA /* vitallistViewController.xib */,
+				B3699CA51A74D2BF00ACE3AA /* DemographicsListViewController.h */,
+				B3699CA61A74D2BF00ACE3AA /* DemographicsListViewController.m */,
+				B3699CA71A74D2BF00ACE3AA /* DemographicsListViewController.xib */,
+				B3699CAA1A74D39000ACE3AA /* ImmunizationviewController.h */,
+				B3699CAB1A74D39000ACE3AA /* ImmunizationviewController.m */,
+				B3699CAC1A74D39000ACE3AA /* ImmunizationviewController.xib */,
 				EE18B66016B7262B00D99CAF /* Images */,
 				EEB38FAB1417D0F000478FA0 /* Supporting Files */,
 			);
@@ -599,11 +647,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3699C9E1A74D1A100ACE3AA /* allergylistViewController.xib in Resources */,
+				B3699CA01A74D1A100ACE3AA /* allergyViewController.xib in Resources */,
 				EEB38FAF1417D0F000478FA0 /* InfoPlist.strings in Resources */,
 				EE3756FE1430C75A002ABE18 /* MainWindow.xib in Resources */,
 				EE37572314313DCE002ABE18 /* MedView.xib in Resources */,
+				B3699CA41A74D1A100ACE3AA /* vitallistViewController.xib in Resources */,
+				B3699CA91A74D2BF00ACE3AA /* DemographicsListViewController.xib in Resources */,
 				EE18B65A16B7261500D99CAF /* Default@2x.png in Resources */,
+				B3699CA21A74D1A100ACE3AA /* VitalListDetails.xib in Resources */,
 				EE18B65D16B7261B00D99CAF /* Default-568h@2x.png in Resources */,
+				B3699CAE1A74D39000ACE3AA /* ImmunizationviewController.xib in Resources */,
 				EE18B65F16B7261E00D99CAF /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -615,10 +669,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3699C9D1A74D1A100ACE3AA /* allergylistViewController.m in Sources */,
+				B3699C9F1A74D1A100ACE3AA /* allergyViewController.m in Sources */,
 				EEB38FB11417D0F000478FA0 /* main.m in Sources */,
 				EEB38FB51417D0F000478FA0 /* AppDelegate.m in Sources */,
+				B3699CAD1A74D39000ACE3AA /* ImmunizationviewController.m in Sources */,
+				B3699CA11A74D1A100ACE3AA /* VitalListDetails.m in Sources */,
 				EEB38FBE1417D0F000478FA0 /* MedViewController.m in Sources */,
 				EE37571C1430CAC6002ABE18 /* MedListViewController.m in Sources */,
+				B3699CA81A74D2BF00ACE3AA /* DemographicsListViewController.m in Sources */,
+				B3699CA31A74D1A100ACE3AA /* vitallistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

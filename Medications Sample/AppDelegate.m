@@ -24,12 +24,27 @@
 #import "MedListViewController.h"
 #import "IndivoServer.h"
 #import "IndivoAppDocument.h"
+#import "allergylistViewController.h"
+#import "allergyViewController.h"
+#import "ImmunizationviewController.h"
+#import "vitallistViewController.h"
+#import "DemographicsListViewController.h"
+@class DemographicsListViewController;
+@class ImmunizationviewController;
 
 
 @interface AppDelegate ()
 
 @property (nonatomic, readwrite, strong) IndivoServer *indivo;
 @property (nonatomic, strong) MedListViewController *listController;
+@property(nonatomic, strong) allergylistViewController*allergylistViewController;
+
+@property(nonatomic,strong) allergyViewController*allergyViewController;
+@property(nonatomic,strong) ImmunizationviewController*ImmunizationviewController;
+@property (strong, nonatomic) vitallistViewController*vitallistViewController;
+@property (strong, nonatomic) DemographicsListViewController *DemographicsListViewController;
+
+
 
 @end
 
@@ -47,9 +62,58 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 	// Setup the UI
+	// Setup the UI
+    /*
 	self.listController = [[MedListViewController alloc] initWithStyle:UITableViewStylePlain];
 	window.rootViewController = [[UINavigationController alloc] initWithRootViewController:listController];
 	[window makeKeyAndVisible];
+     */
+    
+    
+    /*
+     self.allergylistViewController = [[allergylistViewController alloc] initWithStyle:UITableViewStylePlain];
+     window.rootViewController = [[UINavigationController alloc] initWithRootViewController:allergylistViewController];
+     [window makeKeyAndVisible];
+     */
+    
+    //  allergyViewController
+    /*
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     self.allergyViewController = [[allergyViewController alloc] initWithNibName:@"allergyViewController" bundle:nil];
+     self.window.rootViewController = self.allergyViewController;
+     [self.window makeKeyAndVisible];
+     */
+    /*
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     self.allergyViewController = [[allergyViewController alloc] initWithNibName:@"allergyViewController" bundle:nil];
+     self.window.rootViewController = self.allergyViewController;
+     [self.window makeKeyAndVisible];
+     */
+    /*
+     // ImmunizationviewController
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     self.ImmunizationviewController = [[ImmunizationviewController alloc] initWithNibName:@"ImmunizationviewController" bundle:nil];
+     self.window.rootViewController = self.ImmunizationviewController;
+     [self.window makeKeyAndVisible];
+     
+     */
+    
+     // vitallistViewController
+     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+     self.vitallistViewController = [[vitallistViewController alloc] initWithNibName:@"vitallistViewController" bundle:nil];
+     self.window.rootViewController = self.vitallistViewController;
+     [self.window makeKeyAndVisible];
+     
+    
+    //Demographics
+    /*
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.DemographicsListViewController = [[DemographicsListViewController alloc] initWithNibName:@"DemographicsListViewController" bundle:nil];
+    self.window.rootViewController = self.DemographicsListViewController;
+    [self.window makeKeyAndVisible];
+    */
+    
+
 	
     // Setup the server
 	self.indivo = [IndivoServer serverWithDelegate:self];
