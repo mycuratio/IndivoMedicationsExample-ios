@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85EADAE71A89B72D0031D679 /* libIndivo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EADAE61A89B72D0031D679 /* libIndivo.a */; };
 		EE18B65A16B7261500D99CAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65916B7261500D99CAF /* Default@2x.png */; };
 		EE18B65D16B7261B00D99CAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65C16B7261B00D99CAF /* Default-568h@2x.png */; };
 		EE18B65F16B7261E00D99CAF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65E16B7261E00D99CAF /* Default.png */; };
 		EE3756FE1430C75A002ABE18 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3756FD1430C75A002ABE18 /* MainWindow.xib */; };
 		EE37571C1430CAC6002ABE18 /* MedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37571B1430CAC6002ABE18 /* MedListViewController.m */; };
 		EE37572314313DCE002ABE18 /* MedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE37572214313DCE002ABE18 /* MedView.xib */; };
-		EE51921714FD3CC3004B0BC6 /* libIndivo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE51921614FD3CC3004B0BC6 /* libIndivo.a */; };
 		EEB38FA51417D0F000478FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA41417D0F000478FA0 /* UIKit.framework */; };
 		EEB38FA71417D0F000478FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA61417D0F000478FA0 /* Foundation.framework */; };
 		EEB38FA91417D0F000478FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA81417D0F000478FA0 /* CoreGraphics.framework */; };
@@ -25,7 +25,163 @@
 		EED8F047141816BC002BDD10 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EED8F046141816BC002BDD10 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		85EADAD41A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1D6058910D05DD3D006BFB54;
+			remoteInfo = MPOAuthMobile;
+		};
+		85EADAD61A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB36C3C21124D425005CF675;
+			remoteInfo = "MPOAuthMobile+Tests";
+		};
+		85EADAD81A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBD26484111F46580003486C;
+			remoteInfo = MPOAuthTestApp;
+		};
+		85EADADA1A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBD26517111F4B180003486C;
+			remoteInfo = MPOAuth;
+		};
+		85EADADC1A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBD262D5111E412E0003486C;
+			remoteInfo = libMPOAuth;
+		};
+		85EADADE1A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB36C2FB1124CE51005CF675;
+			remoteInfo = libMPOAuthMac;
+		};
+		85EADAE01A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBCF41D811240EF300E90EE8;
+			remoteInfo = "Unit Tests";
+		};
+		85EADAE21A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBCF41A511240C5600E90EE8;
+			remoteInfo = "Mobile Unit Tests";
+		};
+		85EADAE41A89B6FA0031D679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB36C3181124CE8F005CF675;
+			remoteInfo = "Unit Tests Static Library";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		85EADA651A89B6F90031D679 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		85EADA671A89B6F90031D679 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EADA691A89B6F90031D679 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		85EADA6A1A89B6F90031D679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EADA6B1A89B6F90031D679 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		85EADA6C1A89B6F90031D679 /* Mobile Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobile Unit Tests-Info.plist"; sourceTree = "<group>"; };
+		85EADA6D1A89B6F90031D679 /* MPOAuth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPOAuth-Info.plist"; sourceTree = "<group>"; };
+		85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MPOAuth.xcodeproj; sourceTree = "<group>"; };
+		85EADA711A89B6F90031D679 /* MPOAuthConnection_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthConnection_Prefix.pch; sourceTree = "<group>"; };
+		85EADA721A89B6F90031D679 /* MPOAuthMobile+Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPOAuthMobile+Tests-Info.plist"; sourceTree = "<group>"; };
+		85EADA731A89B6F90031D679 /* MPOAuthMobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPOAuthMobile-Info.plist"; sourceTree = "<group>"; };
+		85EADA741A89B6F90031D679 /* MPOAuthMobile_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthMobile_Prefix.pch; sourceTree = "<group>"; };
+		85EADA751A89B6F90031D679 /* MPOAuthTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPOAuthTestApp-Info.plist"; sourceTree = "<group>"; };
+		85EADA771A89B6F90031D679 /* oauthAutoConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = oauthAutoConfig.plist; sourceTree = "<group>"; };
+		85EADA791A89B6F90031D679 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		85EADA7A1A89B6F90031D679 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		85EADA7B1A89B6F90031D679 /* UserAuthViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserAuthViewController.xib; sourceTree = "<group>"; };
+		85EADA7F1A89B6F90031D679 /* Base64Transcoder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Base64Transcoder.c; sourceTree = "<group>"; };
+		85EADA801A89B6F90031D679 /* Base64Transcoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		85EADA811A89B6F90031D679 /* MPDebug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPDebug.h; sourceTree = "<group>"; };
+		85EADA821A89B6F90031D679 /* MPOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuth.h; sourceTree = "<group>"; };
+		85EADA831A89B6F90031D679 /* MPOAuthAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPI.h; sourceTree = "<group>"; };
+		85EADA841A89B6F90031D679 /* MPOAuthAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPI.m; sourceTree = "<group>"; };
+		85EADA851A89B6F90031D679 /* MPOAuthAPIRequestLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPIRequestLoader.h; sourceTree = "<group>"; };
+		85EADA861A89B6F90031D679 /* MPOAuthAPIRequestLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPIRequestLoader.m; sourceTree = "<group>"; };
+		85EADA871A89B6F90031D679 /* MPOAuthAuthenticationMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethod.h; sourceTree = "<group>"; };
+		85EADA881A89B6F90031D679 /* MPOAuthAuthenticationMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethod.m; sourceTree = "<group>"; };
+		85EADA891A89B6F90031D679 /* MPOAuthAuthenticationMethodAuthExchange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodAuthExchange.h; sourceTree = "<group>"; };
+		85EADA8A1A89B6F90031D679 /* MPOAuthAuthenticationMethodAuthExchange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodAuthExchange.m; sourceTree = "<group>"; };
+		85EADA8B1A89B6F90031D679 /* MPOAuthAuthenticationMethodOAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodOAuth.h; sourceTree = "<group>"; };
+		85EADA8C1A89B6F90031D679 /* MPOAuthAuthenticationMethodOAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodOAuth.m; sourceTree = "<group>"; };
+		85EADA8D1A89B6F90031D679 /* MPOAuthAuthenticationMethodTwoLegged.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodTwoLegged.h; sourceTree = "<group>"; };
+		85EADA8E1A89B6F90031D679 /* MPOAuthAuthenticationMethodTwoLegged.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodTwoLegged.m; sourceTree = "<group>"; };
+		85EADA8F1A89B6F90031D679 /* MPOAuthAuthenticationMethodXAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAuthenticationMethodXAuth.h; sourceTree = "<group>"; };
+		85EADA901A89B6F90031D679 /* MPOAuthAuthenticationMethodXAuth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAuthenticationMethodXAuth.m; sourceTree = "<group>"; };
+		85EADA911A89B6F90031D679 /* MPOAuthConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthConnection.h; sourceTree = "<group>"; };
+		85EADA921A89B6F90031D679 /* MPOAuthConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthConnection.m; sourceTree = "<group>"; };
+		85EADA931A89B6F90031D679 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m"; sourceTree = "<group>"; };
+		85EADA941A89B6F90031D679 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPOAuthCredentialConcreteStore+KeychainAdditions.h"; sourceTree = "<group>"; };
+		85EADA951A89B6F90031D679 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m"; sourceTree = "<group>"; };
+		85EADA961A89B6F90031D679 /* MPOAuthCredentialConcreteStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialConcreteStore.h; sourceTree = "<group>"; };
+		85EADA971A89B6F90031D679 /* MPOAuthCredentialConcreteStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthCredentialConcreteStore.m; sourceTree = "<group>"; };
+		85EADA981A89B6F90031D679 /* MPOAuthCredentialStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialStore.h; sourceTree = "<group>"; };
+		85EADA991A89B6F90031D679 /* MPOAuthParameterFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthParameterFactory.h; sourceTree = "<group>"; };
+		85EADA9A1A89B6F90031D679 /* MPOAuthSignatureParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthSignatureParameter.h; sourceTree = "<group>"; };
+		85EADA9B1A89B6F90031D679 /* MPOAuthSignatureParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthSignatureParameter.m; sourceTree = "<group>"; };
+		85EADA9C1A89B6F90031D679 /* MPOAuthURLRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLRequest.h; sourceTree = "<group>"; };
+		85EADA9D1A89B6F90031D679 /* MPOAuthURLRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLRequest.m; sourceTree = "<group>"; };
+		85EADA9E1A89B6F90031D679 /* MPOAuthURLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLResponse.h; sourceTree = "<group>"; };
+		85EADA9F1A89B6F90031D679 /* MPOAuthURLResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLResponse.m; sourceTree = "<group>"; };
+		85EADAA01A89B6F90031D679 /* MPURLRequestParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPURLRequestParameter.h; sourceTree = "<group>"; };
+		85EADAA11A89B6F90031D679 /* MPURLRequestParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPURLRequestParameter.m; sourceTree = "<group>"; };
+		85EADAA21A89B6F90031D679 /* MPWSLRDDiscoverer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPWSLRDDiscoverer.h; sourceTree = "<group>"; };
+		85EADAA31A89B6F90031D679 /* MPWSLRDDiscoverer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPWSLRDDiscoverer.m; sourceTree = "<group>"; };
+		85EADAA41A89B6F90031D679 /* MPWSXRDDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPWSXRDDocument.h; sourceTree = "<group>"; };
+		85EADAA51A89B6F90031D679 /* MPWSXRDDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPWSXRDDocument.m; sourceTree = "<group>"; };
+		85EADAA61A89B6F90031D679 /* NSString+URLEscapingAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEscapingAdditions.h"; sourceTree = "<group>"; };
+		85EADAA71A89B6F90031D679 /* NSString+URLEscapingAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEscapingAdditions.m"; sourceTree = "<group>"; };
+		85EADAA81A89B6F90031D679 /* NSURL+MPURLParameterAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+MPURLParameterAdditions.h"; sourceTree = "<group>"; };
+		85EADAA91A89B6F90031D679 /* NSURL+MPURLParameterAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+MPURLParameterAdditions.m"; sourceTree = "<group>"; };
+		85EADAAA1A89B6F90031D679 /* NSURLResponse+Encoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLResponse+Encoding.h"; sourceTree = "<group>"; };
+		85EADAAB1A89B6F90031D679 /* NSURLResponse+Encoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLResponse+Encoding.m"; sourceTree = "<group>"; };
+		85EADAAD1A89B6F90031D679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EADAAE1A89B6F90031D679 /* MPOAuthMobileAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthMobileAppDelegate.h; sourceTree = "<group>"; };
+		85EADAAF1A89B6F90031D679 /* MPOAuthMobileAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthMobileAppDelegate.m; sourceTree = "<group>"; };
+		85EADAB01A89B6F90031D679 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		85EADAB11A89B6F90031D679 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		85EADAB21A89B6F90031D679 /* UserAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserAuthViewController.h; sourceTree = "<group>"; };
+		85EADAB31A89B6F90031D679 /* UserAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAuthViewController.m; sourceTree = "<group>"; };
+		85EADAB51A89B6F90031D679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EADAB61A89B6F90031D679 /* OAuthClientController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OAuthClientController.h; sourceTree = "<group>"; };
+		85EADAB71A89B6F90031D679 /* OAuthClientController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OAuthClientController.m; sourceTree = "<group>"; };
+		85EADAB91A89B6F90031D679 /* MPOAuthAPIRequestLoaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthAPIRequestLoaderTests.h; sourceTree = "<group>"; };
+		85EADABA1A89B6F90031D679 /* MPOAuthAPIRequestLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthAPIRequestLoaderTests.m; sourceTree = "<group>"; };
+		85EADABB1A89B6F90031D679 /* MPOAuthCredentialConcreteStoreKeychainTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthCredentialConcreteStoreKeychainTests.h; sourceTree = "<group>"; };
+		85EADABC1A89B6F90031D679 /* MPOAuthCredentialConcreteStoreKeychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthCredentialConcreteStoreKeychainTests.m; sourceTree = "<group>"; };
+		85EADABD1A89B6F90031D679 /* MPOAuthParameterFactoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthParameterFactoryTests.h; sourceTree = "<group>"; };
+		85EADABE1A89B6F90031D679 /* MPOAuthParameterFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthParameterFactoryTests.m; sourceTree = "<group>"; };
+		85EADABF1A89B6F90031D679 /* MPOAuthSignatureParameterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthSignatureParameterTests.h; sourceTree = "<group>"; };
+		85EADAC01A89B6F90031D679 /* MPOAuthSignatureParameterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthSignatureParameterTests.m; sourceTree = "<group>"; };
+		85EADAC11A89B6F90031D679 /* MPOAuthURLRequestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPOAuthURLRequestTests.h; sourceTree = "<group>"; };
+		85EADAC21A89B6F90031D679 /* MPOAuthURLRequestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPOAuthURLRequestTests.m; sourceTree = "<group>"; };
+		85EADAC31A89B6F90031D679 /* MPURLRequestParameterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPURLRequestParameterTests.h; sourceTree = "<group>"; };
+		85EADAC41A89B6F90031D679 /* MPURLRequestParameterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPURLRequestParameterTests.m; sourceTree = "<group>"; };
+		85EADAC51A89B6F90031D679 /* NSString+URLAdditionsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLAdditionsTests.h"; sourceTree = "<group>"; };
+		85EADAC61A89B6F90031D679 /* NSString+URLAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLAdditionsTests.m"; sourceTree = "<group>"; };
+		85EADAC71A89B6F90031D679 /* OATestServer.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = OATestServer.rb; sourceTree = "<group>"; };
+		85EADAC81A89B6F90031D679 /* Unit Tests Static-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests Static-Info.plist"; sourceTree = "<group>"; };
+		85EADAC91A89B6F90031D679 /* Unit Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit Tests-Info.plist"; sourceTree = "<group>"; };
+		85EADAE61A89B72D0031D679 /* libIndivo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndivo.a; path = "../IndivoFramework/build/Debug-iphoneos/libIndivo.a"; sourceTree = "<group>"; };
 		EE18082014BCB5B7009D7873 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		EE18B65916B7261500D99CAF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		EE18B65C16B7261B00D99CAF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -34,7 +190,6 @@
 		EE37571A1430CAC6002ABE18 /* MedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedListViewController.h; sourceTree = "<group>"; };
 		EE37571B1430CAC6002ABE18 /* MedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedListViewController.m; sourceTree = "<group>"; };
 		EE37572214313DCE002ABE18 /* MedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedView.xib; sourceTree = "<group>"; };
-		EE51921614FD3CC3004B0BC6 /* libIndivo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndivo.a; path = "../IndivoFramework/build/Release-iphoneos/libIndivo.a"; sourceTree = "<group>"; };
 		EEB38FA01417D0F000478FA0 /* Medications Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medications Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB38FA41417D0F000478FA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEB38FA61417D0F000478FA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE51921714FD3CC3004B0BC6 /* libIndivo.a in Frameworks */,
+				85EADAE71A89B72D0031D679 /* libIndivo.a in Frameworks */,
 				EEB38FA51417D0F000478FA0 /* UIKit.framework in Frameworks */,
 				EEB38FA71417D0F000478FA0 /* Foundation.framework in Frameworks */,
 				EEB38FA91417D0F000478FA0 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +223,183 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85EADA641A89B6F90031D679 /* MPOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA651A89B6F90031D679 /* .gitignore */,
+				85EADA661A89B6F90031D679 /* InfoPlist.strings */,
+				85EADA681A89B6F90031D679 /* MainMenu.xib */,
+				85EADA6A1A89B6F90031D679 /* Info.plist */,
+				85EADA6B1A89B6F90031D679 /* LICENSE.txt */,
+				85EADA6C1A89B6F90031D679 /* Mobile Unit Tests-Info.plist */,
+				85EADA6D1A89B6F90031D679 /* MPOAuth-Info.plist */,
+				85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */,
+				85EADA711A89B6F90031D679 /* MPOAuthConnection_Prefix.pch */,
+				85EADA721A89B6F90031D679 /* MPOAuthMobile+Tests-Info.plist */,
+				85EADA731A89B6F90031D679 /* MPOAuthMobile-Info.plist */,
+				85EADA741A89B6F90031D679 /* MPOAuthMobile_Prefix.pch */,
+				85EADA751A89B6F90031D679 /* MPOAuthTestApp-Info.plist */,
+				85EADA761A89B6F90031D679 /* Resources */,
+				85EADA781A89B6F90031D679 /* Resources-iPhone */,
+				85EADA7C1A89B6F90031D679 /* Source */,
+				85EADAC81A89B6F90031D679 /* Unit Tests Static-Info.plist */,
+				85EADAC91A89B6F90031D679 /* Unit Tests-Info.plist */,
+			);
+			name = MPOAuth;
+			path = ../MPOAuth;
+			sourceTree = "<group>";
+		};
+		85EADA6F1A89B6F90031D679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EADAD51A89B6FA0031D679 /* MPOAuthMobile.app */,
+				85EADAD71A89B6FA0031D679 /* MPOAuthMobile.app */,
+				85EADAD91A89B6FA0031D679 /* MPOAuthTestApp.app */,
+				85EADADB1A89B6FA0031D679 /* MPOAuth.framework */,
+				85EADADD1A89B6FA0031D679 /* libMPOAuthMobile.a */,
+				85EADADF1A89B6FA0031D679 /* libMPOAuth_s.a */,
+				85EADAE11A89B6FA0031D679 /* Unit Tests.octest */,
+				85EADAE31A89B6FA0031D679 /* Mobile Unit Tests.octest */,
+				85EADAE51A89B6FA0031D679 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EADA761A89B6F90031D679 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA771A89B6F90031D679 /* oauthAutoConfig.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85EADA781A89B6F90031D679 /* Resources-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA791A89B6F90031D679 /* MainWindow.xib */,
+				85EADA7A1A89B6F90031D679 /* RootViewController.xib */,
+				85EADA7B1A89B6F90031D679 /* UserAuthViewController.xib */,
+			);
+			path = "Resources-iPhone";
+			sourceTree = "<group>";
+		};
+		85EADA7C1A89B6F90031D679 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA7D1A89B6F90031D679 /* Framework */,
+				85EADAAC1A89B6F90031D679 /* Mobile Test App */,
+				85EADAB41A89B6F90031D679 /* Test App */,
+				85EADAB81A89B6F90031D679 /* Unit Tests */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		85EADA7D1A89B6F90031D679 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA7E1A89B6F90031D679 /* Crypto */,
+				85EADA811A89B6F90031D679 /* MPDebug.h */,
+				85EADA821A89B6F90031D679 /* MPOAuth.h */,
+				85EADA831A89B6F90031D679 /* MPOAuthAPI.h */,
+				85EADA841A89B6F90031D679 /* MPOAuthAPI.m */,
+				85EADA851A89B6F90031D679 /* MPOAuthAPIRequestLoader.h */,
+				85EADA861A89B6F90031D679 /* MPOAuthAPIRequestLoader.m */,
+				85EADA871A89B6F90031D679 /* MPOAuthAuthenticationMethod.h */,
+				85EADA881A89B6F90031D679 /* MPOAuthAuthenticationMethod.m */,
+				85EADA891A89B6F90031D679 /* MPOAuthAuthenticationMethodAuthExchange.h */,
+				85EADA8A1A89B6F90031D679 /* MPOAuthAuthenticationMethodAuthExchange.m */,
+				85EADA8B1A89B6F90031D679 /* MPOAuthAuthenticationMethodOAuth.h */,
+				85EADA8C1A89B6F90031D679 /* MPOAuthAuthenticationMethodOAuth.m */,
+				85EADA8D1A89B6F90031D679 /* MPOAuthAuthenticationMethodTwoLegged.h */,
+				85EADA8E1A89B6F90031D679 /* MPOAuthAuthenticationMethodTwoLegged.m */,
+				85EADA8F1A89B6F90031D679 /* MPOAuthAuthenticationMethodXAuth.h */,
+				85EADA901A89B6F90031D679 /* MPOAuthAuthenticationMethodXAuth.m */,
+				85EADA911A89B6F90031D679 /* MPOAuthConnection.h */,
+				85EADA921A89B6F90031D679 /* MPOAuthConnection.m */,
+				85EADA931A89B6F90031D679 /* MPOAuthCredentiaIConcreteStore+KeychainAdditionsMac.m */,
+				85EADA941A89B6F90031D679 /* MPOAuthCredentialConcreteStore+KeychainAdditions.h */,
+				85EADA951A89B6F90031D679 /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */,
+				85EADA961A89B6F90031D679 /* MPOAuthCredentialConcreteStore.h */,
+				85EADA971A89B6F90031D679 /* MPOAuthCredentialConcreteStore.m */,
+				85EADA981A89B6F90031D679 /* MPOAuthCredentialStore.h */,
+				85EADA991A89B6F90031D679 /* MPOAuthParameterFactory.h */,
+				85EADA9A1A89B6F90031D679 /* MPOAuthSignatureParameter.h */,
+				85EADA9B1A89B6F90031D679 /* MPOAuthSignatureParameter.m */,
+				85EADA9C1A89B6F90031D679 /* MPOAuthURLRequest.h */,
+				85EADA9D1A89B6F90031D679 /* MPOAuthURLRequest.m */,
+				85EADA9E1A89B6F90031D679 /* MPOAuthURLResponse.h */,
+				85EADA9F1A89B6F90031D679 /* MPOAuthURLResponse.m */,
+				85EADAA01A89B6F90031D679 /* MPURLRequestParameter.h */,
+				85EADAA11A89B6F90031D679 /* MPURLRequestParameter.m */,
+				85EADAA21A89B6F90031D679 /* MPWSLRDDiscoverer.h */,
+				85EADAA31A89B6F90031D679 /* MPWSLRDDiscoverer.m */,
+				85EADAA41A89B6F90031D679 /* MPWSXRDDocument.h */,
+				85EADAA51A89B6F90031D679 /* MPWSXRDDocument.m */,
+				85EADAA61A89B6F90031D679 /* NSString+URLEscapingAdditions.h */,
+				85EADAA71A89B6F90031D679 /* NSString+URLEscapingAdditions.m */,
+				85EADAA81A89B6F90031D679 /* NSURL+MPURLParameterAdditions.h */,
+				85EADAA91A89B6F90031D679 /* NSURL+MPURLParameterAdditions.m */,
+				85EADAAA1A89B6F90031D679 /* NSURLResponse+Encoding.h */,
+				85EADAAB1A89B6F90031D679 /* NSURLResponse+Encoding.m */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		85EADA7E1A89B6F90031D679 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				85EADA7F1A89B6F90031D679 /* Base64Transcoder.c */,
+				85EADA801A89B6F90031D679 /* Base64Transcoder.h */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		85EADAAC1A89B6F90031D679 /* Mobile Test App */ = {
+			isa = PBXGroup;
+			children = (
+				85EADAAD1A89B6F90031D679 /* main.m */,
+				85EADAAE1A89B6F90031D679 /* MPOAuthMobileAppDelegate.h */,
+				85EADAAF1A89B6F90031D679 /* MPOAuthMobileAppDelegate.m */,
+				85EADAB01A89B6F90031D679 /* RootViewController.h */,
+				85EADAB11A89B6F90031D679 /* RootViewController.m */,
+				85EADAB21A89B6F90031D679 /* UserAuthViewController.h */,
+				85EADAB31A89B6F90031D679 /* UserAuthViewController.m */,
+			);
+			path = "Mobile Test App";
+			sourceTree = "<group>";
+		};
+		85EADAB41A89B6F90031D679 /* Test App */ = {
+			isa = PBXGroup;
+			children = (
+				85EADAB51A89B6F90031D679 /* main.m */,
+				85EADAB61A89B6F90031D679 /* OAuthClientController.h */,
+				85EADAB71A89B6F90031D679 /* OAuthClientController.m */,
+			);
+			path = "Test App";
+			sourceTree = "<group>";
+		};
+		85EADAB81A89B6F90031D679 /* Unit Tests */ = {
+			isa = PBXGroup;
+			children = (
+				85EADAB91A89B6F90031D679 /* MPOAuthAPIRequestLoaderTests.h */,
+				85EADABA1A89B6F90031D679 /* MPOAuthAPIRequestLoaderTests.m */,
+				85EADABB1A89B6F90031D679 /* MPOAuthCredentialConcreteStoreKeychainTests.h */,
+				85EADABC1A89B6F90031D679 /* MPOAuthCredentialConcreteStoreKeychainTests.m */,
+				85EADABD1A89B6F90031D679 /* MPOAuthParameterFactoryTests.h */,
+				85EADABE1A89B6F90031D679 /* MPOAuthParameterFactoryTests.m */,
+				85EADABF1A89B6F90031D679 /* MPOAuthSignatureParameterTests.h */,
+				85EADAC01A89B6F90031D679 /* MPOAuthSignatureParameterTests.m */,
+				85EADAC11A89B6F90031D679 /* MPOAuthURLRequestTests.h */,
+				85EADAC21A89B6F90031D679 /* MPOAuthURLRequestTests.m */,
+				85EADAC31A89B6F90031D679 /* MPURLRequestParameterTests.h */,
+				85EADAC41A89B6F90031D679 /* MPURLRequestParameterTests.m */,
+				85EADAC51A89B6F90031D679 /* NSString+URLAdditionsTests.h */,
+				85EADAC61A89B6F90031D679 /* NSString+URLAdditionsTests.m */,
+				85EADAC71A89B6F90031D679 /* OATestServer.rb */,
+			);
+			path = "Unit Tests";
+			sourceTree = "<group>";
+		};
 		EE18B66016B7262B00D99CAF /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +431,8 @@
 		EEB38FA31417D0F000478FA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85EADAE61A89B72D0031D679 /* libIndivo.a */,
+				85EADA641A89B6F90031D679 /* MPOAuth */,
 				EED8F046141816BC002BDD10 /* libxml2.dylib */,
 				EEB38FA41417D0F000478FA0 /* UIKit.framework */,
 				EEB38FA61417D0F000478FA0 /* Foundation.framework */,
@@ -164,6 +498,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Children's Hospital Boston";
+				TargetAttributes = {
+					EEB38F9F1417D0F000478FA0 = {
+						DevelopmentTeam = YTG5C6AT7J;
+					};
+				};
 			};
 			buildConfigurationList = EEB38F9A1417D0F000478FA0 /* Build configuration list for PBXProject "Medications Sample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -171,16 +510,89 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = EEB38F951417D0F000478FA0;
 			productRefGroup = EEB38FA11417D0F000478FA0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 85EADA6F1A89B6F90031D679 /* Products */;
+					ProjectRef = 85EADA6E1A89B6F90031D679 /* MPOAuth.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EEB38F9F1417D0F000478FA0 /* Medications Sample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		85EADAD51A89B6FA0031D679 /* MPOAuthMobile.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MPOAuthMobile.app;
+			remoteRef = 85EADAD41A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADAD71A89B6FA0031D679 /* MPOAuthMobile.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MPOAuthMobile.app;
+			remoteRef = 85EADAD61A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADAD91A89B6FA0031D679 /* MPOAuthTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MPOAuthTestApp.app;
+			remoteRef = 85EADAD81A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADADB1A89B6FA0031D679 /* MPOAuth.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MPOAuth.framework;
+			remoteRef = 85EADADA1A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADADD1A89B6FA0031D679 /* libMPOAuthMobile.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMPOAuthMobile.a;
+			remoteRef = 85EADADC1A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADADF1A89B6FA0031D679 /* libMPOAuth_s.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMPOAuth_s.a;
+			remoteRef = 85EADADE1A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADAE11A89B6FA0031D679 /* Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.octest";
+			remoteRef = 85EADAE01A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADAE31A89B6FA0031D679 /* Mobile Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Mobile Unit Tests.octest";
+			remoteRef = 85EADAE21A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		85EADAE51A89B6FA0031D679 /* Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.octest";
+			remoteRef = 85EADAE41A89B6FA0031D679 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EEB38F9E1417D0F000478FA0 /* Resources */ = {
@@ -213,6 +625,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		85EADA661A89B6F90031D679 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EADA671A89B6F90031D679 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85EADA681A89B6F90031D679 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EADA691A89B6F90031D679 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		EEB38FAD1417D0F000478FA0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,9 +703,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medications Sample/Medications Sample-Prefix.pch";
 				INFOPLIST_FILE = "Medications Sample/Medications Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ddang/Documents/Curate,
+					"Health/IndivoFramework-ios/IndivoFramework/build/Debug-iphoneos",
+				);
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
@@ -289,9 +724,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medications Sample/Medications Sample-Prefix.pch";
 				INFOPLIST_FILE = "Medications Sample/Medications Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/ddang/Documents/Curate,
+					"Health/IndivoFramework-ios/IndivoFramework/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
 				WRAPPER_EXTENSION = app;
