@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3699C9D1A74D1A100ACE3AA /* allergylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C911A74D1A100ACE3AA /* allergylistViewController.m */; };
+		85643C831A8C548F00252548 /* libIndivo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85643C821A8C548F00252548 /* libIndivo.a */; };
+		B3699C9D1A74D1A100ACE3AA /* allergylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C911A74D1A100ACE3AA /* allergylistViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3699C9E1A74D1A100ACE3AA /* allergylistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C931A74D1A100ACE3AA /* allergylistViewController.xib */; };
-		B3699C9F1A74D1A100ACE3AA /* allergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C951A74D1A100ACE3AA /* allergyViewController.m */; };
+		B3699C9F1A74D1A100ACE3AA /* allergyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C951A74D1A100ACE3AA /* allergyViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3699CA01A74D1A100ACE3AA /* allergyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C961A74D1A100ACE3AA /* allergyViewController.xib */; };
 		B3699CA11A74D1A100ACE3AA /* VitalListDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C981A74D1A100ACE3AA /* VitalListDetails.m */; };
 		B3699CA21A74D1A100ACE3AA /* VitalListDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C991A74D1A100ACE3AA /* VitalListDetails.xib */; };
-		B3699CA31A74D1A100ACE3AA /* vitallistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C9B1A74D1A100ACE3AA /* vitallistViewController.m */; };
+		B3699CA31A74D1A100ACE3AA /* vitallistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699C9B1A74D1A100ACE3AA /* vitallistViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3699CA41A74D1A100ACE3AA /* vitallistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699C9C1A74D1A100ACE3AA /* vitallistViewController.xib */; };
-		B3699CA81A74D2BF00ACE3AA /* DemographicsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CA61A74D2BF00ACE3AA /* DemographicsListViewController.m */; };
+		B3699CA81A74D2BF00ACE3AA /* DemographicsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CA61A74D2BF00ACE3AA /* DemographicsListViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3699CA91A74D2BF00ACE3AA /* DemographicsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699CA71A74D2BF00ACE3AA /* DemographicsListViewController.xib */; };
-		B3699CAD1A74D39000ACE3AA /* ImmunizationviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CAB1A74D39000ACE3AA /* ImmunizationviewController.m */; };
+		B3699CAD1A74D39000ACE3AA /* ImmunizationviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3699CAB1A74D39000ACE3AA /* ImmunizationviewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B3699CAE1A74D39000ACE3AA /* ImmunizationviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3699CAC1A74D39000ACE3AA /* ImmunizationviewController.xib */; };
 		EE18B65A16B7261500D99CAF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65916B7261500D99CAF /* Default@2x.png */; };
 		EE18B65D16B7261B00D99CAF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE18B65C16B7261B00D99CAF /* Default-568h@2x.png */; };
@@ -25,7 +26,6 @@
 		EE3756FE1430C75A002ABE18 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE3756FD1430C75A002ABE18 /* MainWindow.xib */; };
 		EE37571C1430CAC6002ABE18 /* MedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37571B1430CAC6002ABE18 /* MedListViewController.m */; };
 		EE37572314313DCE002ABE18 /* MedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE37572214313DCE002ABE18 /* MedView.xib */; };
-		EE51921714FD3CC3004B0BC6 /* libIndivo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE51921614FD3CC3004B0BC6 /* libIndivo.a */; };
 		EEB38FA51417D0F000478FA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA41417D0F000478FA0 /* UIKit.framework */; };
 		EEB38FA71417D0F000478FA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA61417D0F000478FA0 /* Foundation.framework */; };
 		EEB38FA91417D0F000478FA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB38FA81417D0F000478FA0 /* CoreGraphics.framework */; };
@@ -38,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85643C821A8C548F00252548 /* libIndivo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndivo.a; path = "../../../../Library/Developer/Xcode/DerivedData/IndivoFramework-gqkbbvxsuxlywgasnbhwtqxbyaun/Build/Products/Debug-iphoneos/libIndivo.a"; sourceTree = "<group>"; };
 		B3699C911A74D1A100ACE3AA /* allergylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allergylistViewController.m; sourceTree = "<group>"; };
 		B3699C921A74D1A100ACE3AA /* allergylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allergylistViewController.h; sourceTree = "<group>"; };
 		B3699C931A74D1A100ACE3AA /* allergylistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = allergylistViewController.xib; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		EE37571A1430CAC6002ABE18 /* MedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedListViewController.h; sourceTree = "<group>"; };
 		EE37571B1430CAC6002ABE18 /* MedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedListViewController.m; sourceTree = "<group>"; };
 		EE37572214313DCE002ABE18 /* MedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedView.xib; sourceTree = "<group>"; };
-		EE51921614FD3CC3004B0BC6 /* libIndivo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIndivo.a; path = "../IndivoFramework/build/Release-iphoneos/libIndivo.a"; sourceTree = "<group>"; };
 		EEB38FA01417D0F000478FA0 /* Medications Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medications Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB38FA41417D0F000478FA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EEB38FA61417D0F000478FA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE51921714FD3CC3004B0BC6 /* libIndivo.a in Frameworks */,
+				85643C831A8C548F00252548 /* libIndivo.a in Frameworks */,
 				EEB38FA51417D0F000478FA0 /* UIKit.framework in Frameworks */,
 				EEB38FA71417D0F000478FA0 /* Foundation.framework in Frameworks */,
 				EEB38FA91417D0F000478FA0 /* CoreGraphics.framework in Frameworks */,
@@ -129,6 +129,7 @@
 		EEB38FA31417D0F000478FA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85643C821A8C548F00252548 /* libIndivo.a */,
 				EED8F046141816BC002BDD10 /* libxml2.dylib */,
 				EEB38FA41417D0F000478FA0 /* UIKit.framework */,
 				EEB38FA61417D0F000478FA0 /* Foundation.framework */,
@@ -338,6 +339,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medications Sample/Medications Sample-Prefix.pch";
 				INFOPLIST_FILE = "Medications Sample/Medications Sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/IndivoFramework-gqkbbvxsuxlywgasnbhwtqxbyaun/Build/Products/Debug-iphoneos",
+				);
 				OTHER_CFLAGS = "-DDEBUG";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
@@ -352,6 +357,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Medications Sample/Medications Sample-Prefix.pch";
 				INFOPLIST_FILE = "Medications Sample/Medications Sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/IndivoFramework-gqkbbvxsuxlywgasnbhwtqxbyaun/Build/Products/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../**";
 				WRAPPER_EXTENSION = app;
