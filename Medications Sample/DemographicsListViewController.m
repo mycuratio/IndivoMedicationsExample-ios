@@ -221,7 +221,7 @@
 		
 		// display the name
 		IndivoDemographics *med = [meds objectAtIndex:indexPath.row];
-		cell.textLabel.text = [med displayName];
+		cell.textLabel.text = [med label];
       
         NSLog(@"cell.textlABEL.TEXT  %@",cell.textLabel.text);
 		return cell;

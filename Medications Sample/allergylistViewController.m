@@ -277,7 +277,7 @@
 		
 		// display the name
 		IndivoAllergy *med = [meds objectAtIndex:indexPath.row];
-		cell.textLabel.text = [med displayName];
+		cell.textLabel.text = [med label];
 		return cell;
 	}
 	return nil;

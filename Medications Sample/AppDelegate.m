@@ -63,11 +63,11 @@
 {
 	// Setup the UI
 	// Setup the UI
-    /*
+    
 	self.listController = [[MedListViewController alloc] initWithStyle:UITableViewStylePlain];
 	window.rootViewController = [[UINavigationController alloc] initWithRootViewController:listController];
-	[window makeKeyAndVisible];
-     */
+	[self.window makeKeyAndVisible];
+     
     
     
     /*
@@ -96,14 +96,14 @@
      self.window.rootViewController = self.ImmunizationviewController;
      [self.window makeKeyAndVisible];
      
-     */
+     
     
      // vitallistViewController
      self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
      self.vitallistViewController = [[vitallistViewController alloc] initWithNibName:@"vitallistViewController" bundle:nil];
      self.window.rootViewController = self.vitallistViewController;
      [self.window makeKeyAndVisible];
-     
+     */
     
     //Demographics
     /*
